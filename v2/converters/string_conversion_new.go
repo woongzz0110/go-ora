@@ -25186,6 +25186,8 @@ func NewStringConverter(langID int) IStringConverter {
 				8216: 96, 8213: 45, 63742: 183, 8248: 94, 8764: 126, 63741: 102, 8356: 76, 376: 89, 946: 223,
 			},
 		}
+	case 0x34E:
+		fallthrough
 	case 0x366:
 		fallthrough
 	case 0x367:
